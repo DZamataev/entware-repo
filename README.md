@@ -45,7 +45,7 @@ opkg install smtp-tunnel-client   # SOCKS5 proxy через SMTP
 
 | Package | Version | Description |
 |---------|---------|-------------|
-| **awg-manager** | 1.4.6 | AmneziaWG tunnel manager with web interface |
+| **awg-manager** | 1.5.0 | AmneziaWG tunnel manager with web interface |
 | **sing-box-awg** | 1.12.18-awg2.0 | sing-box proxy platform with AmneziaWG 2.0 support (stable) |
 | **sing-box-awg-beta** | 1.13.0-beta.8-awg2.0 | sing-box proxy platform with AmneziaWG 2.0 support (beta) |
 | **smtp-tunnel-client** | 1.0.0 | SOCKS5 proxy over SMTP protocol for DPI bypass |
