@@ -1,12 +1,12 @@
 Package: awg-manager
-Version: 1.7.7
+Version: 1.7.8
 Depends: curl, iptables, ip-full
 Section: net
 Architecture: mipsel-3.4
 Maintainer: hoaxisr
-MD5Sum: b00e45e8d5e8daf9d786520f2eff66d3
-Size: 4293848
-Filename: awg-manager_1.7.7_mipsel-3.4-kn.ipk
+MD5Sum: 73ef9e9c957aae19d17a7b7045662e9b
+Size: 4294447
+Filename: awg-manager_1.7.8_mipsel-3.4-kn.ipk
 Description: AmneziaWG tunnel manager with web interface
 
 
