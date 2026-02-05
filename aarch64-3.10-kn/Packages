@@ -11,25 +11,25 @@ Description: AmneziaWG tunnel manager with web interface
 
 
 Package: sing-box-awg-beta
-Version: 1.13.0-rc.1-awg2.0
+Version: 1.13.0-rc.2-awg2.0
 Section: net
 Architecture: aarch64-3.10
 Maintainer: hoaxisr
-MD5Sum: d37b466ff8394dba721af1ffbb940595
-Size: 12581826
-Filename: sing-box-awg-beta_1.13.0-rc.1-awg2.0_aarch64-3.10-kn.ipk
+MD5Sum: b95f373014fbb0562f203db8513161af
+Size: 12586203
+Filename: sing-box-awg-beta_1.13.0-rc.2-awg2.0_aarch64-3.10-kn.ipk
 Description: sing-box proxy platform with AmneziaWG 2.0 support
 HomePage: https://github.com/hoaxisr/amnezia-box
 
 
 Package: sing-box-awg
-Version: 1.12.19-awg2.0
+Version: 1.12.20-awg2.0
 Section: net
 Architecture: aarch64-3.10
 Maintainer: hoaxisr
-MD5Sum: 78c0672a88e5e4c17cf579e612e216e0
-Size: 12158337
-Filename: sing-box-awg_1.12.19-awg2.0_aarch64-3.10-kn.ipk
+MD5Sum: 9146570e1267005cf3551d9bb748e4f4
+Size: 12158868
+Filename: sing-box-awg_1.12.20-awg2.0_aarch64-3.10-kn.ipk
 Description: sing-box proxy platform with AmneziaWG 2.0 support
 HomePage: https://github.com/hoaxisr/amnezia-box
 
