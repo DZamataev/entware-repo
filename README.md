@@ -6,7 +6,8 @@ Custom Entware package repository for Keenetic routers.
 
 | Architecture | Devices |
 |--------------|---------|
-| `mipsel-3.4-kn` | Keenetic with MIPS (MT7621, etc.) |
+| `mipsel-3.4-kn` | Keenetic with MIPS Little Endian (MT7621, etc.) |
+| `mips-3.4-kn` | Keenetic with MIPS Big Endian (MT7628, etc.) |
 | `aarch64-3.10-kn` | Keenetic with ARM64 (KN-1811, etc.) |
 
 ## Installation
@@ -16,6 +17,7 @@ Custom Entware package repository for Keenetic routers.
 ```bash
 uname -m
 # mipsel -> use mipsel-3.4-kn
+# mips   -> use mips-3.4-kn
 # aarch64 -> use aarch64-3.10-kn
 ```
 
@@ -26,6 +28,9 @@ Create file `/opt/etc/opkg/custom.conf`:
 ```bash
 # For mipsel:
 echo "src/gz keenetic_custom https://hoaxisr.github.io/entware-repo/mipsel-3.4-kn" > /opt/etc/opkg/custom.conf
+
+# For mips:
+echo "src/gz keenetic_custom https://hoaxisr.github.io/entware-repo/mips-3.4-kn" > /opt/etc/opkg/custom.conf
 
 # For aarch64:
 echo "src/gz keenetic_custom https://hoaxisr.github.io/entware-repo/aarch64-3.10-kn" > /opt/etc/opkg/custom.conf
@@ -45,7 +50,7 @@ opkg install smtp-tunnel-client   # SOCKS5 proxy через SMTP
 
 | Package | Version | Description |
 |---------|---------|-------------|
-| **awg-manager** | 1.7.6 | AmneziaWG tunnel manager with web interface |
+| **awg-manager** | 2.0.4-beta | AmneziaWG tunnel manager with web interface |
 | **sing-box-awg** | 1.12.20-awg2.0 | sing-box proxy platform with AmneziaWG 2.0 support (stable) |
 | **sing-box-awg-beta** | 1.13.0-rc.2-awg2.0 | sing-box proxy platform with AmneziaWG 2.0 support (beta) |
 | **smtp-tunnel-client** | 1.0.0 | SOCKS5 proxy over SMTP protocol for DPI bypass |

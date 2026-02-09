@@ -22,7 +22,7 @@ jobs:
 
       - name: Rebuild Indexes
         run: |
-          for arch_dir in mipsel-3.4-kn aarch64-3.10-kn; do
+          for arch_dir in mipsel-3.4-kn mips-3.4-kn aarch64-3.10-kn; do
             if [ -d "$arch_dir" ]; then
               cd "$arch_dir"
               if ls *.ipk >/dev/null 2>&1; then
