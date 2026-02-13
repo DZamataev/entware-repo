@@ -4,8 +4,8 @@ Depends: curl, iptables, ip-full
 Section: net
 Architecture: mipsel-3.4
 Maintainer: hoaxisr
-MD5Sum: f6ff41c5065807b3eeaec7e88130635b
-Size: 4626019
+MD5Sum: 2228bc5e27c86d3954e3c52bcb0f2b08
+Size: 4562713
 Filename: awg-manager_2.0.9-rc.3_mipsel-3.4-kn.ipk
 Description: AmneziaWG tunnel manager with web interface
 
