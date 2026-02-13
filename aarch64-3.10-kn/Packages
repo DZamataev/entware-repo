@@ -4,8 +4,8 @@ Depends: curl, iptables, ip-full
 Section: net
 Architecture: aarch64-3.10
 Maintainer: hoaxisr
-MD5Sum: bd2f41018116e7b06a8d207ce03dea21
-Size: 4591707
+MD5Sum: 91fc604afadf15e4fbe1b8ee6d01fb38
+Size: 4597073
 Filename: awg-manager_2.0.9-rc.3_aarch64-3.10-kn.ipk
 Description: AmneziaWG tunnel manager with web interface
 
