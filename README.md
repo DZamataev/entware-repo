@@ -27,13 +27,13 @@ Create file `/opt/etc/opkg/custom.conf`:
 
 ```bash
 # For mipsel:
-echo "src/gz keenetic_custom https://hoaxisr.github.io/entware-repo/mipsel-3.4-kn" > /opt/etc/opkg/custom.conf
+echo "src/gz keenetic_custom https://hoaxisr.github.io/entware-repo/mipsel-3.4-kn" >> /opt/etc/opkg/custom.conf
 
 # For mips:
-echo "src/gz keenetic_custom https://hoaxisr.github.io/entware-repo/mips-3.4-kn" > /opt/etc/opkg/custom.conf
+echo "src/gz keenetic_custom https://hoaxisr.github.io/entware-repo/mips-3.4-kn" >> /opt/etc/opkg/custom.conf
 
 # For aarch64:
-echo "src/gz keenetic_custom https://hoaxisr.github.io/entware-repo/aarch64-3.10-kn" > /opt/etc/opkg/custom.conf
+echo "src/gz keenetic_custom https://hoaxisr.github.io/entware-repo/aarch64-3.10-kn" >> /opt/etc/opkg/custom.conf
 ```
 
 ### 3. Update and install
@@ -50,7 +50,7 @@ opkg install smtp-tunnel-client   # SOCKS5 proxy через SMTP
 
 | Package | Version | Description |
 |---------|---------|-------------|
-| **awg-manager** | 2.0.7-beta | AmneziaWG tunnel manager with web interface |
+| **awg-manager** | 2.0.9-rc.2 | AmneziaWG tunnel manager with web interface |
 | **sing-box-awg** | 1.12.20-awg2.0 | sing-box proxy platform with AmneziaWG 2.0 support (stable) |
 | **sing-box-awg-beta** | 1.13.0-rc.2-awg2.0 | sing-box proxy platform with AmneziaWG 2.0 support (beta) |
 | **smtp-tunnel-client** | 1.0.0 | SOCKS5 proxy over SMTP protocol for DPI bypass |
