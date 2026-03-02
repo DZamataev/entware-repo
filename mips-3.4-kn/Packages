@@ -4,8 +4,8 @@ Depends: curl, iptables, ip-full
 Section: net
 Architecture: mips-3.4
 Maintainer: hoaxisr
-MD5Sum: 90dccbf68ab20b7dd38216faa41e104e
-Size: 5174068
+MD5Sum: 97eb564b63292a196a06546654f1c78c
+Size: 4808281
 Filename: awg-manager_2.3.11_mips-3.4-kn.ipk
 Description: AmneziaWG tunnel manager with web interface
 
