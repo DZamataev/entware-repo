@@ -27,13 +27,13 @@ Create file `/opt/etc/opkg/custom.conf`:
 
 ```bash
 # For mipsel:
-echo "src/gz keenetic_custom https://hoaxisr.github.io/entware-repo/mipsel-3.4-kn" >> /opt/etc/opkg/custom.conf
+echo "src/gz keenetic_custom https://dzamataev.github.io/entware-repo/mipsel-3.4-kn" >> /opt/etc/opkg/custom.conf
 
 # For mips:
-echo "src/gz keenetic_custom https://hoaxisr.github.io/entware-repo/mips-3.4-kn" >> /opt/etc/opkg/custom.conf
+echo "src/gz keenetic_custom https://dzamataev.github.io/entware-repo/mips-3.4-kn" >> /opt/etc/opkg/custom.conf
 
 # For aarch64:
-echo "src/gz keenetic_custom https://hoaxisr.github.io/entware-repo/aarch64-3.10-kn" >> /opt/etc/opkg/custom.conf
+echo "src/gz keenetic_custom https://dzamataev.github.io/entware-repo/aarch64-3.10-kn" >> /opt/etc/opkg/custom.conf
 ```
 
 ### 3. Update and install
